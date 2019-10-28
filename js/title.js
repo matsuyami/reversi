@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
   $(".title").lettering();
   $(".navButton").lettering();

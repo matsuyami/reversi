@@ -1,0 +1,58 @@
+input[type="text"], input[type="button"]{
+	font-size: 16px;
+	padding: 1.0em;
+	margin: 0.2em 0em 0.5em 1em;
+}
+
+input[type="file"]{
+	margin: 5px 0px 5px 36px;
+}
+
+/*button hidden by default because of modal*/
+input[type="button"]{
+	visibility: hidden;
+}
+
+select{
+	font-size: 16px;
+	padding: 1.0em;
+	margin: 0.2em 0em 0.5em 1em;
+	width: 58%;
+}
+input#uname.textbox{
+	margin-top: 1em;
+}
+
+div img{
+	margin-top: 10px;
+	font-size: 16px;
+	border-radius: 50%;
+	max-width: 250px;
+	max-height: 250px;
+}
+
+.modal-contents{
+	margin: auto;				/*center form div*/
+	margin-top: 5%;
+	border: 1px solid #f1f1f9;
+	text-align: center;
+	background-color: #f1f1f1;
+	width: 400px;
+	height: 770px;
+	overflow: hidden;
+}
+
+.modal{
+	display:none;		/* default hidden */
+	margin: 0 auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;	
+	z-index: 1;			/* on top */
+	background-color: rgba(0,0,0,0.4); /* Black */
+	width: 100%;
+	height: 100%;
+}
+
