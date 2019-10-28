@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+html{
+  height: 100%;
+  background-image: linear-gradient(to bottom, #1d77ff 0%, #02c412);
+}
+
+body{
+  font-family: "Righteous", sans-serif;
+}
+
+.title{
+  text-transform: uppercase;
+  font-size: 94px;
+  margin: 0;
+  line-height: 94px;
+  letter-spacing: 2px;
+  transform: translateX(-50%) rotate(-10deg);
+  color: white;
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
+}
+
+.title span {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+  min-width: 10px;
+  min-height: 10px;
+  position: relative;
+  }
+
+#supertitle{
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 2px;
+  }
+
+#container {
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  max-width: 625px;
+}
+.navButton{
+  float: center;
+  letter-spacing: 2px;
+  position: relative;
+  transform: translateX(-50%) rotate(-10deg);
+  color: white;
+  text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+}
+#navigation{
+  transform: translate(-50%, -50%);
+  display: block;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  bottom: -150px;
+}
+.navButton span{
+    float: center;
+    text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;
+  }
+
+.navButton:hover{
+  color: yellow;
+}
