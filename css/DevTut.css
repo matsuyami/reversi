@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+html{
+  height: 100%;
+  background-image: linear-gradient(to right, #1d77ff 0%, #1d8eff 20%, #02c483);
+}
+body{
+  font-family: "Righteous", sans-serif;
+}
+#home{
+	font-size: 24px;
+	font-family: "Righteous", sans-serif;
+	color: white;
+	cursor: pointer;
+	text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+	margin-top: 1em;
+	margin-left: 2.5em;
+	display: inline-block;
+}
+#home:hover{
+	color: yellow;
+}
+.heading{
+	font-size: 58pt;
+	font-family: "Righteous", sans-serif;
+	color: white;
+	text-align: center;
+	text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+	transform: skew(-10deg);
+	max-width: 98%;
+}
+.tutBG{
+	border-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 25%;
+	bottom: 50%;
+	left: 25%;
+	right: 25%;
+}
+.tutPar{
+	font-family: "Righteous", sans-serif;
+	font-size: 20pt;
+	color: white;
+	display: block;
+	padding: 5px 12px 5px 12px;
+}
+.devBG{
+	margin-top: 0px;
+	color: white;
+	border-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 25%;
+	bottom: 50%;
+	left: 25%;
+	right: 25%;
+}
+.devName{
+	font-size: 40pt;
+	transform: skew(-10deg);
+	margin-bottom: 0px;
+	font-family: "Righteous", sans-serif;
+	color: white;
+	text-align: center;
+	text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+}
+.devPar{
+	margin-top: 0px;
+	font-family: "Righteous", sans-serif;
+	font-size: 15pt;
+	color: white;
+	display: block;
+	padding: 5px 12px 5px 12px;
+}
+.lbBG{
+	border-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 25%;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+}
+.pad{
+	padding: 5px 12px 5px 12px;
+	width: 98%;
+	height: 98%;
+
+}
+.lbTable{
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	color: white;
+	overflow-x: auto;
+}
+#headRow{
+	border-bottom: 3px solid white;
+}
+th{
+	font-size: 35pt;
+	text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+
+}
+td{
+	text-align: center;
+	font-size: 30pt;
+}
+td.placement{
+	padding-left: 40px;
+	text-align: left;
+}

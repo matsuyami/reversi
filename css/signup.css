@@ -1,15 +1,18 @@
 input[type="text"], input[type="password"]{
 	font-size: 16px;
-	padding: 1.0em;
+	padding: 0.5em;
 	margin: 0.2em 0em 0.5em 1em;
 }
 
+input[type="file"]{
+	margin: 5px 0px 5px 36px;
+}
 
 
 /*button hidden by default because of modal*/
 button#submit{
-	background: #C8C8C8;
-	margin: 0.2em 0em 0.2em 1em;
+	background: #a9a9a9;
+	margin: 0.2em 0em 0.5em 1em;
 	font-size: 16px;
 	font-weight: bold;
   	border-radius: 4.4em;
@@ -24,9 +27,10 @@ button#submit {
 
 select{
 	font-size: 16px;
-	padding: 1.0em;
+	padding: 0.5em;
 	margin: 0.2em 0em 0.5em 1em;
-	width: 58%;
+	width: 67%;
+	height: 71%;
 }
 
 input#uname.textbox{
@@ -37,19 +41,18 @@ div img{
 	margin-top: 10px;
 	font-size: 16px;
 	border-radius: 50%;
-	max-width: 250px;
-	max-height: 250px;
+	max-width: 200px;
+	max-height: 200px;
 }
 
 .modal-contents{
 	margin: auto;				/*center form div*/
-	margin-top: 5%;
 	border: 1px solid #f1f1f9;
 	text-align: center;
 	border-radius: 2em;
 	background-color: #f1f1f1;
-	width: 25em;
-	height: 34.375em;
+	width: 20em;
+	height: 41.125em;
 	overflow: hidden;
 }
 
@@ -67,20 +70,3 @@ div img{
 	height: 100%;
 }
 
-/* signup text */
-div#signup{
-	margin-top: 2em;
-}
-
-div#signup > span {
-	color: blue;
-	text-decoration: none;
-}
-
-div#signup > span:hover {
-	text-decoration: underline;
-}
-
-#pw-err, #user-err{
-	color: red;
-}

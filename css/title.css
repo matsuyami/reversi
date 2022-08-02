@@ -2,7 +2,8 @@
 
 html{
   height: 100%;
-  background-image: linear-gradient(to bottom, #1d77ff 0%, #02c412);
+  background-image: linear-gradient(to right, #1d77ff 0%, #1d8eff 20%, #02c483);
+
 }
 
 body{
@@ -74,4 +75,5 @@ body{
 
 .navButton:hover{
   color: yellow;
+  cursor: pointer;
 }

@@ -1,0 +1,46 @@
+#player-name{
+	font-size: 24px;
+	text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;
+	font-family: "Righteous", sans-serif;
+	font-weight: bold;
+	color: #eeeeee;
+	float: right;
+	margin-right: 1em;
+	/*margin-right: 2.5em;*/
+	margin-top: 1em;
+}
+
+.toSquare{
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: right;
+  margin-top: 15px;
+  margin-right: 1em;
+}
+
+.user-img{
+	width: auto;
+	height: 100%;
+	float: right;
+	margin-left: -50px;
+
+}
+/*
+.fa-trophy, .fa-sign-out{
+	color: white;
+	font-size: 40px;
+	border: 10px double white;
+	padding: 2px;
+	filter:drop-shadow(0px 4px 1px #533d4a);
+	transition: all 0.5s ease;
+	border-radius: 2px;
+}
+
+.fa-trophy:hover, .fa-sign-out:hover{
+    transform: scale(1.5);
+	cursor: pointer;
+}*/
